@@ -1,15 +1,20 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import workintech from '/workintech.svg'
-import './App.css'
+import { useState } from "react";
+import reactLogo from "./assets/react.svg";
+import workintech from "/workintech.svg";
+import "./App.css";
+import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
+import OrderForm from "./pages/OrderForm.jsx";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
 
   return (
     <>
       <div>
-        <a href="https://github.com/Workintech/fsweb-s7-challenge-pizza" target="_blank">
+        <a
+          href="https://github.com/Workintech/fsweb-s7-challenge-pizza"
+          target="_blank"
+        >
           <img src={workintech} className="logo" alt="Workintech logo" />
         </a>
         <a href="https://react.dev" target="_blank">
@@ -28,8 +33,14 @@ function App() {
       <p className="read-the-docs">
         Click on the Workintech or Pizza logos to learn more
       </p>
+      <Router>
+        <Switch>
+          <Route path="/order" component={OrderForm} />
+          <Link to="/order" > Click here</Link> 
+        </Switch>
+      </Router>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
