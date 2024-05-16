@@ -2,8 +2,6 @@ import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import workintech from "/workintech.svg";
 import "./App.css";
-import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
-import OrderForm from "./pages/OrderForm.jsx";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -33,12 +31,6 @@ function App() {
       <p className="read-the-docs">
         Click on the Workintech or Pizza logos to learn more
       </p>
-      <Router>
-        <Switch>
-          <Route path="/order" component={OrderForm} />
-          <Link to="/order" > Click here</Link> 
-        </Switch>
-      </Router>
     </>
   );
 }
