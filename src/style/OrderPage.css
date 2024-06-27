@@ -1,0 +1,286 @@
+/* LOGO */
+.logo {
+  background-color: #ce2829;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin: 0 auto;
+}
+
+/* UST LINKLER */
+.ust-link {
+  width: 100%;
+  max-width: 581px;
+  display: flex;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.nav-ust {
+  text-decoration: none;
+  font-weight: 600;
+  display: flex;
+  align-items: flex-start;
+}
+.olustur-link {
+  color: white;
+  text-decoration: none;
+}
+.anasayfa-link {
+  color: white;
+}
+
+.order-container {
+  width: 100%;
+  display: flex;
+  max-width: 581px;
+  margin: 0 auto;
+  padding: 10px;
+  font-family: Barlow;
+}
+
+/* PIZZA BILGISI */
+.baslik-pizza {
+  font-size: 22px;
+  color: #292929;
+  font-family: "Barlow", sans-serif;
+  display: flex;
+  align-items: flex-start;
+  font-weight: 600;
+}
+.order-price {
+  display: flex;
+  flex-direction: row;
+  align-items: center; 
+  font-family: Barlow;
+  margin-top: -25px;
+}
+
+.fiyat-text {
+  flex: 1;
+  text-align: left;
+  font-size: 37px;
+  font-weight: 600;
+  
+}
+
+.order-score {
+  margin-right: 115px;
+  font-size: 16px;
+}
+
+.order-yorum {
+  font-size: 16px;
+}
+
+.aciklama-text {
+  font-family: Barlow;
+  color: #5f5f5f;
+  padding-bottom: 2rem;
+  text-align: left;
+  font-size: 16px;
+}
+
+/* ISIM ALANI */
+.isim-alani {
+  display: flex;
+  float: left;
+}
+.isim-alani label {
+  font-size: 20px;
+  line-height: 24.76px;
+  font-weight: 600;
+  font-family: Barlow;
+}
+
+.isim-alani input {
+  margin-left: 10px;
+  font-size: 20px;
+}
+/* PIZZA BOYUTU - KALINLIĞI */
+
+.boyut-hamur {
+  display: flex;
+  width: 581px;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.form-size {
+  display: flex;
+  margin-top: 30px;
+}
+
+.form-boyutsec {
+  font-size: 20px;
+  font-weight: 600;
+
+}
+
+.boyut-sml {
+  margin: 10px;
+  width: 79px;
+  line-height: 50px;
+  margin-left: 0px;
+  font-size: 20px;
+  text-align: left;
+}
+
+.form-hamur {
+  display: flex;
+  font-size: 20px;
+  
+  margin-top: 30px;
+  margin-right: 110px;
+  flex: 1;
+}
+
+.form-hamursec {
+  font-size: 20px;
+  text-align: left;
+  align-items: left;
+  font-weight: 600;
+}
+
+.hamur-tip select {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.form-ekmalzemeler {
+  text-align: left;
+  
+}
+
+.ek-yazi {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.malzeme-yazi {
+  font-size: 16px;
+}
+
+.malzeme-sec {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: space-between; 
+  gap: 20px; 
+  max-width: 600px; 
+  margin: 0 auto; 
+}
+
+.checkbox-item {
+  flex: 1 1 30%; 
+  display: flex;
+  align-items: center; 
+}
+
+.checkbox-item input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.not-baslik {
+  color: #292929;
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-weight: 600;
+  text-align: left;
+}
+
+.not textarea {
+  font-size: 14px;
+  align-content: center;
+  width: 581px;
+  height: 30px;
+  padding: 10px;
+  border: 1px solid #d9d9d9;
+  border-radius: 6px;
+  resize: none; 
+}
+
+.cizgi hr {
+  width: 100%;
+  border: 0;
+  border-top: 1px solid #5f5f5f;
+  margin: 20px 0;
+  rotate: 0°;
+}
+
+.son-bolum {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.arttir-eksilt {
+  display: flex;
+  align-items: flex-start;
+}
+
+.eksilt,
+.arttir {
+  width: 47px;
+  font-size: 16px;
+  color: #000000;
+  font-weight: 400;
+}
+
+.eksilt button,
+.arttir button {
+  background-color: #ffc107;
+}
+
+.order-summary {
+  border: 1px solid #d9d9d9;
+  background-color: white;
+  font-weight: 600;
+  width: 47px;
+  height: 40px;
+  align-content: center;
+}
+
+.order-sonuc {
+  border: solid 1px #d9d9d9;
+  border-radius: 6px;
+  font-family: Barlow;
+  margin-left: 100px;
+  width: 100%;
+}
+
+.order-sonuc p {
+  text-align: center;
+  margin-left: 49px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 2;
+  text-align: left;
+  margin-top: 42px;
+  margin-bottom: -35px;
+}
+
+.order-sonuc-p4 {
+  margin-left: 10rem;
+}
+
+.order-sonuc-p3 {
+  color: #ce2829;
+}
+
+.order-sonuc-p5 {
+  color: #ce2829;
+  margin-left: 9rem;
+}
+
+.form-button {
+  color: #292929;
+  margin-top: 60px;
+}
+
+.form-button button {
+  width: 100%;
+  background-color: #ffc107;
+  border: none;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 4px;
+}

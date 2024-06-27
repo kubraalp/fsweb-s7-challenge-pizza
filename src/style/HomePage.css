@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+
+.home-background {
+  background-image: url("http://localhost:5173/src/assets/home-banner.png");
+  background-position: 50%;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+}
+
+.home-logo {
+  padding-top: 80px;
+}
+
+.home-content {
+  padding-top: 20px;
+}
+
+.home-text1 {
+  display: flex;
+  justify-content: center;
+  font-family: Roboto Condensed;
+  font-size: 86px;
+  color: #ffffff;
+  font-weight: 250;
+  margin-top: 10px;
+  text-align: center;
+  line-height: 92px;
+  margin-bottom: 20px;
+}
+
+.home-button {
+  padding: 0.8em 3rem;
+  background-color: #ffc107;
+  color: #292929;
+  border-radius: 30px;
+  font-size: 16px;
+  line-height: 35px;
+}
+
+/* İKONLAR */
+.icon-container {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+
+/* İkon kutusu stili */
+.icon-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  text-align: center;
+}
+
+/* İkon stili */
+.icon {
+  max-width: 100%;
+
+  margin-bottom: 10px;
+}
+
+/* İkon ismi stili */
+.icon-name {
+  font-size: 1em;
+  color: #292929;
+  line-height: 32.4px;
+  font-size: 18px;
+}
+
+/* Reklam Bölümü */
+
+.reklam {
+  display: flex;
+  width: 1320px;
+  height: 561px;
+  background-position: 50%;
+  margin: 0;
+  background-size: cover;
+}
+.reklam > div {
+  height: 100%;
+}
+.reklam > div:first-child {
+  width: 636px; /* İlk içerik kutusunun sabit genişliği */
+}
+
+.reklam > div:not(:first-child) {
+  width: calc((100% - 636px) / 2); /* Diğer içerik kutularının genişliği hesaplanır */
+}
+
+.ozel-lezzetus {
+  width: 636px;
+  height: 535.75px;
+  background-image: url("http://localhost:5173/src/assets/cta/kart-1.png");
+  float: left;
+}
+
+.lezzetus-baslik {
+  font-family: Quattrocento;
+  font-size: 68px;
+  color: #ffffff;
+  text-align: left;
+  margin-left: 50px;
+  margin-top: 30px;
+  line-height: 1.2;
+  margin-bottom: 5px;
+}
+
+.lezzetus-icerik {
+  font-family: Barlow;
+  color: #ffffff;
+  text-align: left;
+  font-size: 20px;
+  margin-left: 50px;
+  font-weight: 600;
+}
+.hackathlon {
+  background-color: #292929;
+  width: 636px;
+  height: 255.53px;
+  background-image: url("http://localhost:5173/src/assets/cta/kart-2.png");
+  background-size: 636px;
+  flex-direction: column;
+  float: right;
+}
+
+.hackathlon p {
+  font-family: Barlow;
+  color: #ffffff;
+  font-size: 32px;
+  text-align: left;
+  margin-left: 50px;
+  
+}
+
+
+.lezzetus-button, 
+.hackathlon-button,
+.kurye-button
+{
+  text-align: left;
+  float: left;
+  margin-left: 50px;
+  border-radius: 50px;
+  color: #CE2829;
+  font-size: 14px;
+}
+
+.kurye {
+  display: flex;
+  flex-direction: column;
+  background-image: url("http://localhost:5173/src/assets/cta/kart-3.png");
+
+}
+

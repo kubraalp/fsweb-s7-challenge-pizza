@@ -1,0 +1,109 @@
+.success-page {
+  background-color: #ce2829;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  height: 1080px;
+}
+
+header {
+  padding: 20px 0;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 56px;
+}
+
+.logo {
+  margin: 0 auto;
+  padding-top: 3rem;
+}
+
+.lezzet {
+    
+  color: #fdc913;
+  font-family: Satisfy;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  margin-top: 50px;
+}
+
+.siparis {
+  color: #fff;
+  text-align: center;
+  font-family: Roboto Condensed;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 92px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  margin-top: -30px;
+}
+
+hr {
+  width: 40%;
+  margin: 20px auto;
+  border: 1px;
+  border-top: 1px solid #faf7f2;
+  margin-top: -20px;
+}
+
+.bilgi-baslik {
+  width: 476px;
+  height: 56px;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-width: 250px;
+  font-weight: 600;
+}
+
+.bilgi-icerik {
+  margin-top: 40px;
+  margin-left: -820px;
+  color: white;
+  text-align: left;
+}
+
+.bilgi-icerik p {
+  margin-left: 873px;
+  color: white;
+  text-align: left;
+  line-height: 24.76px;
+  size: 16px;
+  width: 201px;
+}
+
+.sonuc {
+  margin-top: 100px;
+  width: 288px;
+  height: 191px;
+  color: white;
+  border: solid 1px;
+  border-radius: 6px;
+  border-color: #faf7f2;
+  font-family: Barlow;
+}
+.sonuc p {
+  text-align: center;
+  margin-left: 49px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 2;
+  text-align: left;
+  margin-top: 42px;
+  margin-bottom: -35px;
+}
+
+.sonuc-p4 {
+  margin-left: 5.2rem;
+}
+
+.sonuc-p5 {
+  margin-left: 4.2rem;
+}
