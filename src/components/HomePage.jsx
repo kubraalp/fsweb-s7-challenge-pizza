@@ -21,34 +21,35 @@ const HomePage = () => {
   ];
   return (
     <>
-      <div className="home-background">
-        <div className="home-logo">
-          <img src={logo} alt={logo} />
-          <div>
-            <div className="home-content ">
-              <p className="home-text1">
-                KOD ACIKTIRIR
-                <br />
-                PİZZA, DOYURUR
-              </p>
+    <div className="container">
+        <div className="home-background">
+          <div className="home-logo">
+            <img src={logo} alt={logo} />
+            <div>
+              <p className="sari-yazi">fırsatı kaçırma</p>
+              <div className="home-content ">
+                <p className="home-text1">
+                  KOD ACIKTIRIR
+                  <br />
+                  PİZZA, DOYURUR
+                </p>
 
-              <Link to="/OrderPage" className="home-button" id="order-pizza">
-                ACIKTIM
-              </Link>
+                <Link to="/OrderPage" className="home-button" id="order-pizza">
+                  ACIKTIM
+                </Link>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <div className="icon-container">
-        {icons.map((icon, index) => (
-          <div key={index} className="icon-box">
-            <img src={icon.src} alt={icon.name} className="icon" />
-            <p className="icon-name">{icon.name}</p>
-          </div>
-        ))}
-      </div>
-      
-      
+        <div className="icon-container">
+          {icons.map((icon, index) => (
+            <div key={index} className="icon-box">
+              <img src={icon.src} alt={icon.name} className="icon" />
+              <p className="icon-name">{icon.name}</p>
+            </div>
+          ))}
+        </div>
+        </div>
     </>
   );
 };
