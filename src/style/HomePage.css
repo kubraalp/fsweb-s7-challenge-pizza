@@ -31,7 +31,7 @@
   margin-top: 10px;
   text-align: center;
   line-height: 92px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .home-button {
@@ -75,88 +75,4 @@
 }
 
 /* Reklam Bölümü */
-
-.reklam {
-  display: flex;
-  width: 1320px;
-  height: 561px;
-  background-position: 50%;
-  margin: 0;
-  background-size: cover;
-}
-.reklam > div {
-  height: 100%;
-}
-.reklam > div:first-child {
-  width: 636px; /* İlk içerik kutusunun sabit genişliği */
-}
-
-.reklam > div:not(:first-child) {
-  width: calc((100% - 636px) / 2); /* Diğer içerik kutularının genişliği hesaplanır */
-}
-
-.ozel-lezzetus {
-  width: 636px;
-  height: 535.75px;
-  background-image: url("http://localhost:5173/src/assets/cta/kart-1.png");
-  float: left;
-}
-
-.lezzetus-baslik {
-  font-family: Quattrocento;
-  font-size: 68px;
-  color: #ffffff;
-  text-align: left;
-  margin-left: 50px;
-  margin-top: 30px;
-  line-height: 1.2;
-  margin-bottom: 5px;
-}
-
-.lezzetus-icerik {
-  font-family: Barlow;
-  color: #ffffff;
-  text-align: left;
-  font-size: 20px;
-  margin-left: 50px;
-  font-weight: 600;
-}
-.hackathlon {
-  background-color: #292929;
-  width: 636px;
-  height: 255.53px;
-  background-image: url("http://localhost:5173/src/assets/cta/kart-2.png");
-  background-size: 636px;
-  flex-direction: column;
-  float: right;
-}
-
-.hackathlon p {
-  font-family: Barlow;
-  color: #ffffff;
-  font-size: 32px;
-  text-align: left;
-  margin-left: 50px;
-  
-}
-
-
-.lezzetus-button, 
-.hackathlon-button,
-.kurye-button
-{
-  text-align: left;
-  float: left;
-  margin-left: 50px;
-  border-radius: 50px;
-  color: #CE2829;
-  font-size: 14px;
-}
-
-.kurye {
-  display: flex;
-  flex-direction: column;
-  background-image: url("http://localhost:5173/src/assets/cta/kart-3.png");
-
-}
 

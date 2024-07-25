@@ -47,23 +47,8 @@ const HomePage = () => {
           </div>
         ))}
       </div>
-      <div className="reklam">
-        <div className="ozel-lezzetus">
-          <p className="lezzetus-baslik">Özel<br/> Lezzetus</p>
-          <p className="lezzetus-icerik">Position:Absolute Acı Burger</p>
-          <button className="lezzetus-button">SİPARİŞ VER</button>
-        </div>
-
-        <div className="hackathlon">
-          <p>Hackathlon <br/> Burger Menü</p>
-          <button className="hackathlon-button">SİPARİŞ VER</button>
-        </div>
-
-        <div className="kurye">
-          <p>Çoooook hızlı npm gibi kurye </p>
-          <button className="kurye-button">SİPARİŞ VER</button>
-        </div>
-      </div>
+      
+      
     </>
   );
 };

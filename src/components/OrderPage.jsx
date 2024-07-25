@@ -14,14 +14,6 @@ const OrderPage = ({ setSuccessOrder }) => {
     extraNotes: "",
   });
 
-  //Hata Mesajlari
-  // const errorMessages = {
-  //   malzemeler : "* En az 4, en çok 10 tane malzeme seçmelisiniz!",
-  //   isim: "* İsim en az 3 karakter içermelidir.",
-  //   boyut: "* Lütfen pizza boyutunu seçin.",
-  //   hamur: "* Lütfen hamur kalınlığı seçin.",
-  // }
-
   const [submitting, setSubmitting] = useState(false);
   const [counter, setCounter] = useState(1);
   const [total, setTotal] = useState(0);
@@ -116,33 +108,29 @@ const OrderPage = ({ setSuccessOrder }) => {
         <img src={logo} alt={logo} />
 
         <div className="ust-link">
-          <Nav className="nav-ust">
-            <NavLink className="anasayfa-link" href="/">
-              Anasayfa - 
-            </NavLink>
+          <NavLink className="anasayfa-link" href="/">
+            Anasayfa -
+          </NavLink>
 
-            {/* <p className="kisa-cizgi"> - </p> */}
+          {/* <p className="kisa-cizgi"> - </p> */}
 
-            <NavLink className="olustur-link" href="/OrderPage">
-              Sipariş Oluştur
-            </NavLink>
-          </Nav>
+          <NavLink className="olustur-link" href="/OrderPage">
+            Sipariş Oluştur
+          </NavLink>
         </div>
       </div>
       <div className="order-container">
         <main>
           <section className="pizza-section">
-            
-              <h2 className="baslik-pizza">Position Absolute Acı Pizza</h2>
-             
-              <div className="order-price">
-                <p className="fiyat-text">{pizzaBasePrice}₺</p>
+            <h2 className="baslik-pizza">Position Absolute Acı Pizza</h2>
 
-                <p className="order-score">4.9</p>
-                <p className="order-yorum">(200)</p>
-              </div>
-              
-            
+            <div className="order-price">
+              <p className="fiyat-text">{pizzaBasePrice}₺</p>
+
+              <p className="order-score">4.9</p>
+              <p className="order-yorum">(200)</p>
+            </div>
+
             <p className="aciklama-text">
               Frontent Dev olarak hala position:absolute kullanıyorsan bu çok
               acı pizza tam sana göre. Pizza, domates, peynir ve genellikle
@@ -243,7 +231,7 @@ const OrderPage = ({ setSuccessOrder }) => {
                 </div>
                 <br />
                 <div className="siparis-notu">
-                <p className="not-baslik"> Sipariş Notu </p> 
+                  <p className="not-baslik"> Sipariş Notu </p>
                   <div className="not">
                     <textarea
                       name="extraNotes"
@@ -259,34 +247,41 @@ const OrderPage = ({ setSuccessOrder }) => {
                 </div>
                 <div className="son-bolum">
                   <div className="arttir-eksilt">
-                <div className="eksilt">
-                  <button
-                    type="button"
-                    onClick={() => handleCounterChange(false)}
-                  >
-                    -
-                  </button>
-                </div>
-                <div className="order-summary">
-                  {counter}
+                    <div className="eksilt">
+                      <button
+                        type="button"
+                        onClick={() => handleCounterChange(false)}
+                      >
+                        -
+                      </button>
+                    </div>
+                    <div className="order-summary">{counter}</div>
+                    <div className="arttir">
+                      <button
+                        type="button"
+                        onClick={() => handleCounterChange(true)}
+                      >
+                        +
+                      </button>
+                    </div>
                   </div>
-                  <div className="arttir">
-                    <button
-                      type="button"
-                      onClick={() => handleCounterChange(true)}
-                    >
-                      +
-                    </button>
-                  </div>
-                  </div>
-                  
+
                   <div className="order-sonuc">
                     <p className="order-sonuc-p1">Sipariş Toplamı</p>
-                    <p className="order-sonuc-p2">Seçimler <span className="order-sonuc-p4">{totalToppingPrice} ₺ </span> </p>
-                    <p className="order-sonuc-p3">Toplam <span className="order-sonuc-p5">{totalPrice} ₺ </span></p>
-                    <div className="form-button"><button type="submit" disabled={!isFormValid()}>
-                      SİPARİŞ VER
-                    </button>
+                    <p className="order-sonuc-p2">
+                      Seçimler{" "}
+                      <span className="order-sonuc-p4">
+                        {totalToppingPrice} ₺{" "}
+                      </span>{" "}
+                    </p>
+                    <p className="order-sonuc-p3">
+                      Toplam{" "}
+                      <span className="order-sonuc-p5">{totalPrice} ₺ </span>
+                    </p>
+                    <div className="form-button">
+                      <button type="submit" disabled={!isFormValid()}>
+                        SİPARİŞ VER
+                      </button>
                     </div>
                   </div>
                 </div>
