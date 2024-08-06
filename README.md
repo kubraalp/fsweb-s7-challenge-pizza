@@ -117,7 +117,4 @@ veya
 }
 ```
 
-iştir. Veri yönetiminde doğru akışı ve adımları eksiksiz ifade edebilmiştir. 
 
-  - **3 Gereksinimleri Aşıyor:**
-    - Doğru yanıta ek, en az bir başka çözüm ile de daha geniş perspektiftan yanıtlayabilme, ikisi arasındaki benzerlik ve uygulama farklarını karşılaştırabilmek.
