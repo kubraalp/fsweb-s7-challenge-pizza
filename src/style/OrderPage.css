@@ -1,6 +1,6 @@
 /* LOGO */
 .logo {
-  width: 100%;
+  max-width: 100%;
   background-color: #ce2829;
   padding-top: 1rem;
   padding-bottom: 1rem;
