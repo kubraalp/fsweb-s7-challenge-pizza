@@ -1,5 +1,5 @@
 # Sprint Challenge: _Teknolojik Yemekler - SPA_
- [**Figma Formatında**](https://www.figma.com/design/vJt1PHno8OgPDJLJNsiY0v/Technological-Foods?node-id=0-1&t=j5WunnGn68ni8XPA-0) 
+ [**Figma Formatı**](https://www.figma.com/design/vJt1PHno8OgPDJLJNsiY0v/Technological-Foods?node-id=0-1&t=j5WunnGn68ni8XPA-0) 
 
  
 SPA: Single Page Application
